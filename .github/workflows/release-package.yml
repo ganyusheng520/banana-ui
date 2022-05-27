@@ -14,7 +14,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 12
-      - run: npm rollup
+      - run: npm run rollup
   publish-gpr:
     needs: build
     runs-on: ubuntu-latest
