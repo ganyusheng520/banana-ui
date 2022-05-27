@@ -1,9 +1,6 @@
 {
-  "name": "@ganyusheng520/banana-ui",
-  "publishConfig": {
-    "ganyusheng520:registry": "https://npm.pkg.github.com"
-  },
-  "version": "0.0.1",
+  "name": "banana-milk-ui",
+  "version": "0.0.2",
   "description": "simple react ui components",
   "scripts": {
     "test": "test",
