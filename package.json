@@ -10,7 +10,8 @@
     "build": "build",
     "start": "start",
     "lint": "eslint --ext .js,.ts src/index.ts",
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "commit": "cz"
   },
   "keywords": [
     "react",
@@ -26,12 +27,18 @@
     "react": "^18.1.0",
     "rollup": "^2.74.1",
     "rollup-plugin-dts": "^4.2.2",
-    "typescript": "^4.7.2"
+    "typescript": "^4.7.2",
+    "cz-conventional-changelog": "3.3.0"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
