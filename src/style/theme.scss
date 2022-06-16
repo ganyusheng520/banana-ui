@@ -1,0 +1,155 @@
+$common_bg_white: #fff;
+
+$common_dark_level10_color: #C1C2C5;
+$common_dark_level9_color: #A6A7AB;
+$common_dark_level8_color: #909296;
+$common_dark_level7_color: #5c5f66;
+$common_dark_level6_color: #373A40;
+$common_dark_level5_color: #2C2E33;
+$common_dark_level4_color: #25262b;
+$common_dark_level3_color: #1A1B1E;
+$common_dark_level2_color: #141517;
+$common_dark_level1_color: #101113;
+
+$common_dark_level10_gray: #f8f9fa;
+$common_dark_level9_gray: #f1f3f5;
+$common_dark_level8_gray: #e9ecef;
+$common_dark_level7_gray: #dee2e6;
+$common_dark_level6_gray: #ced4da;
+$common_dark_level5_gray: #adb5bd;
+$common_dark_level4_gray: #868e96;
+$common_dark_level3_gray: #495057;
+$common_dark_level2_gray: #343a40;
+$common_dark_level1_gray: #212529;
+
+$common_dark_level10_red: #fff5f5;
+$common_dark_level9_red: #ffe3e3;
+$common_dark_level8_red: #ffc9c9;
+$common_dark_level7_red: #ffa8a8;
+$common_dark_level6_red: #ff8787;
+$common_dark_level5_red: #ff6b6b;
+$common_dark_level4_red: #fa5252;
+$common_dark_level3_red: #f03e3e;
+$common_dark_level2_red: #e03131;
+$common_dark_level1_red: #c92a2a;
+
+$common_dark_level10_pink: #fff0f6;
+$common_dark_level9_pink: #ffdeeb;
+$common_dark_level8_pink: #fcc2d7;
+$common_dark_level7_pink: #faa2c1;
+$common_dark_level6_pink: #f783ac;
+$common_dark_level5_pink: #f06595;
+$common_dark_level4_pink: #e64980;
+$common_dark_level3_pink: #d6336c;
+$common_dark_level2_pink: #c2255c;
+$common_dark_level1_pink: #a61e4d;
+
+$common_dark_level10_grape: #f8f0fc;
+$common_dark_level9_grape: #f3d9fa;
+$common_dark_level8_grape: #eebefa;
+$common_dark_level7_grape: #e599f7;
+$common_dark_level6_grape: #da77f2;
+$common_dark_level5_grape: #cc5de8;
+$common_dark_level4_grape: #be4bdb;
+$common_dark_level3_grape: #ae3ec9;
+$common_dark_level2_grape: #9c36b5;
+$common_dark_level1_grape: #862e9c;
+
+$common_dark_level10_violet: #f3f0ff;
+$common_dark_level9_violet: #e5dbff;
+$common_dark_level8_violet: #d0bfff;
+$common_dark_level7_violet: #b197fc;
+$common_dark_level6_violet: #9775fa;
+$common_dark_level5_violet: #845ef7;
+$common_dark_level4_violet: #7950f2;
+$common_dark_level3_violet: #7048e8;
+$common_dark_level2_violet: #6741d9;
+$common_dark_level1_violet: #5f3dc4;
+
+$common_dark_level10_indigo: #edf2ff;
+$common_dark_level9_indigo: #dbe4ff;
+$common_dark_level8_indigo: #bac8ff;
+$common_dark_level7_indigo: #91a7ff;
+$common_dark_level6_indigo: #748ffc;
+$common_dark_level5_indigo: #5c7cfa;
+$common_dark_level4_indigo: #4c6ef5;
+$common_dark_level3_indigo: #4263eb;
+$common_dark_level2_indigo: #3b5bdb;
+$common_dark_level1_indigo: #364fc7;
+
+$common_dark_level10_blue: #e7f5ff;
+$common_dark_level9_blue: #d0ebff;
+$common_dark_level8_blue: #a5d8ff;
+$common_dark_level7_blue: #74c0fc;
+$common_dark_level6_blue: #4dabf7;
+$common_dark_level5_blue: #339af0;
+$common_dark_level4_blue: #228be6;
+$common_dark_level3_blue: #1c7ed6;
+$common_dark_level2_blue: #1971c2;
+$common_dark_level1_blue: #1864ab;
+
+$common_dark_level10_cyan: #e3fafc;
+$common_dark_level9_cyan: #c5f6fa;
+$common_dark_level8_cyan: #99e9f2;
+$common_dark_level7_cyan: #66d9e8;
+$common_dark_level6_cyan: #3bc9db;
+$common_dark_level5_cyan: #22b8cf;
+$common_dark_level4_cyan: #15aabf;
+$common_dark_level3_cyan: #1098ad;
+$common_dark_level2_cyan: #0c8599;
+$common_dark_level1_cyan: #0b7285;
+
+$common_dark_level10_teal: #e6fcf5;
+$common_dark_level9_teal: #c3fae8;
+$common_dark_level8_teal: #96f2d7;
+$common_dark_level7_teal: #63e6be;
+$common_dark_level6_teal: #38d9a9;
+$common_dark_level5_teal: #20c997;
+$common_dark_level4_teal: #12b886;
+$common_dark_level3_teal: #0ca678;
+$common_dark_level2_teal: #099268;
+$common_dark_level1_teal: #087f5b;
+
+$common_dark_level10_green: #ebfbee;
+$common_dark_level9_green: #d3f9d8;
+$common_dark_level8_green: #b2f2bb;
+$common_dark_level7_green: #8ce99a;
+$common_dark_level6_green: #69db7c;
+$common_dark_level5_green: #51cf66;
+$common_dark_level4_green: #40c057;
+$common_dark_level3_green: #37b24d;
+$common_dark_level2_green: #2f9e44;
+$common_dark_level1_green: #2b8a3e;
+
+$common_dark_level10_lime: #f4fce3;
+$common_dark_level9_lime: #e9fac8;
+$common_dark_level8_lime: #d8f5a2;
+$common_dark_level7_lime: #c0eb75;
+$common_dark_level6_lime: #a9e34b;
+$common_dark_level5_lime: #94d82d;
+$common_dark_level4_lime: #82c91e;
+$common_dark_level3_lime: #74b816;
+$common_dark_level2_lime: #66a80f;
+$common_dark_level1_lime: #5c940d;
+
+$common_dark_level10_yellow: #fff9db;
+$common_dark_level9_yellow: #fff3bf;
+$common_dark_level8_yellow: #ffec99;
+$common_dark_level7_yellow: #ffe066;
+$common_dark_level6_yellow: #ffd43b;
+$common_dark_level5_yellow: #fcc419;
+$common_dark_level4_yellow: #fab005;
+$common_dark_level3_yellow: #f59f00;
+$common_dark_level2_yellow: #f08c00;
+$common_dark_level1_yellow: #e67700;
+
+$common_dark_level10_orange: #fff4e6;
+$common_dark_level9_orange: #ffe8cc;
+$common_dark_level8_orange: #ffd8a8;
+$common_dark_level7_orange: #ffc078;
+$common_dark_level6_orange: #ffa94d;
+$common_dark_level5_orange: #ff922b;
+$common_dark_level4_orange: #fd7e14;
+$common_dark_level3_orange: #f76707;
+$common_dark_level2_orange: #e8590c;
+$common_dark_level1_orange: #d9480f;

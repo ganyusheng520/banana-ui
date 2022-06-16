@@ -1,0 +1,50 @@
+@import '../../../style/theme';
+
+.banana-btn-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  padding: 0 12px;
+  border: 1px solid $common_dark_level8_gray;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  user-select: none;
+  color: $common_dark_level1_gray;
+  &:hover {
+    background-color: $common_dark_level10_gray;
+  }
+  &.banana-btn-primary {
+    color: $common_bg_white;
+    background-color: $common_dark_level3_violet;
+    &:hover {
+      background-color: $common_dark_level2_violet;
+    }
+    &:active {
+      background-color: $common_dark_level1_violet;
+    }
+  }
+  &.banana-btn-danger {
+    color: $common_bg_white;
+    background-color: $common_dark_level3_red;
+    &:hover {
+      background-color: $common_dark_level2_red;
+    }
+    &:active {
+      background-color: $common_dark_level1_red;
+    }
+  }
+  &.banana-btn-disabled {
+    color: $common_dark_level3_gray;
+    background-color: $common_dark_level8_gray;
+    cursor: not-allowed;
+    &:hover {
+      background-color: $common_dark_level8_gray;
+    }
+    &:active {
+      background-color: $common_dark_level8_gray;
+    }
+  }
+}
+
