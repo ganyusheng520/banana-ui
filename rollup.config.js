@@ -3,6 +3,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import typescript from '@rollup/plugin-typescript';
 import dts from 'rollup-plugin-dts';
 import scss from 'rollup-plugin-scss';
+import postcss from 'rollup-plugin-postcss';
 
 const packageJson = require('./package.json');
 
@@ -22,15 +23,16 @@ export default [
             }
         ],
         plugins: [
+            scss({
+                output: 'dist/css/style.css',
+                failOnError: true,
+                runtime: require('sass'),
+            }),
+            postcss(),
             resolver(),
             commonjs(),
             typescript({
                 tsconfig: './tsconfig.json',
-            }),
-            scss({
-                output: './build/css/style.css',
-                failOnError: true,
-                runtime: require('sass'),
             }),
         ]
     },
@@ -40,6 +42,7 @@ export default [
             file: 'dist/index.d.ts',
             format: 'esm',
         }],
+        external: [/\.css$/, /\.scss/],
         plugins: [dts()]
     }
 ]

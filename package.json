@@ -1,6 +1,6 @@
 {
   "name": "banana-milk-ui",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "simple react ui components",
   "scripts": {
     "test": "test",
@@ -41,6 +41,7 @@
     "react-dom": "^18.1.0",
     "rollup": "^2.74.1",
     "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-scss": "^3.0.0",
     "sass": "^1.52.3",
     "sass-loader": "^10.1.1",

@@ -1,5 +1,5 @@
 import React, {useCallback, useMemo} from 'react';
-import './style';
+import './style/index';
 
 export interface ButtonProps {
     disabled?: boolean;
